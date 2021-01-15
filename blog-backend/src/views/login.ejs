@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Blog</title>
+</head>
+<body>
+    <div class="container">
+        <center>
+            <h2>tech blog</h2>
+        </center>
+        <hr/>
+        <div class="row">
+            <div class="offset-md-3 col-md-5">
+                <h2>Login</h2>
+                <hr/>
+                <form action="/login" method="POST">
+                    <div class="form-group">
+                        <label for="email">email</label>
+                        <input name="email" class="form-control" id="email"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">password</label>
+                        <input name="password" class="form-control" id="password" type="password"/>
+                    </div>
+                    <button type="submit" class="btn btn-success">Login</button>
+                    New User? <a href="/register">SignUp</a>
+                </form>
+            </div>
+        </div>
+        <h1>hello</h1>
+    </div>
+</body>
+</html>
